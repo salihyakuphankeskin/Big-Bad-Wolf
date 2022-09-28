@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    width: 60%;
+    font-weight: 900;
+}
+p{
+    text-align: right;
+    line-height: 1.4;
+}
+h2{
+    text-decoration: green overline wavy;
+}
+h3{
+    letter-spacing: 20px;
+}

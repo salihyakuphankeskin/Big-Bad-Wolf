@@ -1,0 +1,14 @@
+.colorfulDiv{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    transition: background-Color 1s ease-out;
+}
+.colorfulDiv2{    
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    transition: background-Color 1s ease-out;
+}

@@ -1,0 +1,20 @@
+pwd                         ->      shows your place in computer
+ls:                         ->      list files
+
+cd:                         ->      Change directory
+cd .. :                     ->      Back one directory
+
+cd Belgerim/Önemli:         ->      Relative path
+cd /User/Belgelerim:        ->      Path from roots
+
+mkdir Plants:               ->      Create Folder
+mal ls:                     ->      Shows manual for item
+
+-l                          ->      Long format
+-a                          ->      Show all including hidden files
+
+touch purple.txt            ->      Create File
+
+rm purple.txt               ->      Delete File
+rmdir Plants                ->      Delete Empty Directory
+rmdir -rf Plants            ->      Delete Directory

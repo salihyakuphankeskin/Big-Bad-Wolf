@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3>li a selector(selects only a in li)</h3>
+    <ol>
+        <li><a href="https://www.google.com.tr/">GOOGLE</a></li>
+        <li><a href="https://mail.google.com/">MAIL</a></li>
+        <li>NOT LINKED</li>
+    </ol>
+    <h3>span + p selector(selects on p comes after span)</h3>
+    <span>THIS span will show the way</span>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, assumenda?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dolorem.
+    </p>
+    <h3>div > p (selects only direct descendant p from div)</h3>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sit.
+            <aside>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, officiis.</p>
+            </aside>
+        </p>
+    </div>
+    <h3>input[type="text"] (only selects input what have text type)</h3>
+    <input type="button" value="">
+    <input type="date" name="" id="">
+    <input type="text" name="" id="">
+    <h3> anchor elements with an href ending "puppy" </h3>
+    <a href="https://www.google.com/search?q=puppy">PUPPY</a>
+    <a href="https://mail.google.com/">MAIL</a>
+    <h3>a[href *="reddit"] (a elements with an href containing "reddit")</h3>
+    <a href="https://www.reddit.com/">REDDIT</a>
+    <h3>.clickerDiv:hover (Pseduo class)</h3>
+    <div class="clickerDiv">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, eos!
+    </div>
+    
+    
+    <footer style= "display: flex; justify-content: space-around;">        
+        <a href="../p8/index.html" style="font-size: 60px; text-decoration: none;">◀</a>
+        <a href="../index.html"  style="font-size: 60px; text-decoration: none;">⌂</a>
+        <a href="../p10/index.html"  style="font-size: 60px; text-decoration: none;">▶</a>  
+    </footer>     
+</body>
+</html>

@@ -1,0 +1,25 @@
+section{
+    padding:10px;
+    background-color: rgb(168, 156, 106);
+    display: flex;
+    width: inherit;
+    height: 200px;
+}
+section div{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section div:nth-of-type(1){
+    flex: 5 1 100px;
+    background-color: cornflowerblue;
+}
+section div:nth-of-type(2){
+    flex: 1 5 200px;
+    background-color: cornflowerblue;
+}
+section div:nth-of-type(3){
+    flex: 1 1 300px;
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: rgba(83, 30, 48, 0.788);
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/Coucly">
+        <h3>SELECT AND OPTION</h3>
+        <label for="">Please Select Entree </label>
+        <select name="" id="">
+            <option value="empty" selected>Please Select Option</option>
+            <option value="fish">Fish</option>
+            <option value="vegetable">Vegetable</option>
+            <option value="meat">Meat</option>
+        </select>
+        <p>
+            <h3>RANGE</h3>
+            <label for="cheese">Amount of Cheese: </label>
+            <input type="range" id="cheese" min="0" max="100" step="10" value="50" name="cheeseAmount">
+            <button>Choose</button>
+        </p>
+        <p>
+            <h3>TEXTAREA</h3>
+            <label for="requestTaker">Requests</label>
+            <br>
+            <textarea name="requestData" id="requestTaker" cols="20" rows="2" placeholder="Enter your request please !!!"></textarea>
+        </p>
+        <p>
+            <form action="/dummy">
+                <h3>REQUIRED</h3>
+                <label for="name">Enter name: </label>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <label for="userName">Enter user name: </label>
+                <input type="text" name="userName" id="userName" minlength="5" maxlength="20">
+                <p>
+                    <label for="">E-mail: </label>
+                    <input type="email" name="" id="">
+                    <br>
+                    <br>
+                    <label for="">Url: </label>
+                    <input type="url" name="" id="">
+                </p>
+            </form>
+        </p>
+    </form>
+    
+    
+    <footer style= "display: flex; justify-content: space-around;">        
+        <a href="../p6/index.html" style="font-size: 60px; text-decoration: none;">◀</a>
+        <a href="../index.html"  style="font-size: 60px; text-decoration: none;">⌂</a>
+        <a href="../p8/index.html"  style="font-size: 60px; text-decoration: none;">▶</a>  
+    </footer>     
+</body>
+</html>

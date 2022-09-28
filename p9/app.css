@@ -1,0 +1,26 @@
+li a{
+    background-color: DeepPink;
+}
+span + p{
+    background-color: DarkKhaki;
+}
+div > p{
+    background-color: LightGreen;
+}
+input{
+    min-width: 100px;
+}
+input[type="text"]{
+    background-color: Teal;
+}
+a[href *="reddit"]{
+    background-color: Chocolate;
+}
+a[href$="puppy"] {
+    background-color: Brown;
+}
+.clickerDiv:hover{
+    font-size: 2em;
+}
+a{
+}

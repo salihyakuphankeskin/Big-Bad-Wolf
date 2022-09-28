@@ -1,0 +1,50 @@
+->  use AnimalSelther: create a folder named "AnimalShelter"
+
+->  show collections: shows what is inside of folder
+
+->  db.dogs.insert(): add items to folder named "dogs"
+    db.dogs.insert([{name:"Wyatt", breed:"Golden",age:14,catFriendly:true},{name:"Tonya" breed:"Chihuahua",age:17,catFriendly:true}])
+
+->  db.dogs.insertOne(): add one item to folder named "dogs"
+    db.dog.insertOne({name:"Charlie",age:3,breed:"corgi",catFriendly:true})
+
+->  db.dogs.find(): shows what is inside of "dogs" folder and also can be specified 
+
+->  db.dogs.findOne(): find one specified item what is inside of "dogs" folder
+
+->   db.dogs.updateOne(): updates one item and can be add feature
+     db.dogs.updateOne({name: "Charlie"},{$set: {age: 4}})
+
+->   db.dogs.updateMany(): updates items and can be add features
+
+->  db.cats.deleteOne(): deletes one item from collection
+    db.cats.deleteOne({name: "Katty"})
+
+->  db.cats.deleteMany(): delete items from collection
+
+->  $eq     =   equal to specific value
+->  $gt     =   greater than specific value
+->  $gte    =   greater than or equal to specific value
+->  $lt     =   less than specific value
+->  $lte    =   less than or equal to specific value
+->  $in     =   equal to specific value in array
+->  $ne     =   not equal to specific value
+->  $nin    =   not equal to specific value in array
+
+->  $and    =   logiacal operator and
+->  $or     =   logiacal operator or
+->  $nor    =   logiacal operator nor
+->  $not    =   logiacal operator not
+
+->  
+->  
+->  
+->  
+->  
+->  
+->  
+->  
+->  
+->  
+->  
+->  

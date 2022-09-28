@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px solid black;
+            background-color: rgb(219, 190, 195);
+            padding: 10px;
+        }
+        tr{            
+            border: 1px solid black;
+            height: 40px;
+        }
+        td, th {
+            border: 1px solid black;
+            width: 140px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TABLE</h1>
+    <table>
+        <tr>
+            <th colspan="5">Table Header</th>
+        </tr>
+        <tr>
+            <th rowspan="4">Table Row</th>
+            <th>Animal</th>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Dog</td>
+            <td>Artug</td>
+            <td>Turkey</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Cat</td>
+            <td>Lizzie</td>
+            <td>Austria</td>
+            <td>3</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">ROWSPAN = 2</th>
+                <th colspan="2">COLSPAN = 2</th>
+                <th rowspan="2">ROWSPAN = 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">Animal</th>
+                <th colspan="2">Average Mass</th>
+                <th rowspan="2">Flighted</th>
+            </tr>
+            <tr>
+                <th>KG</th>
+                <th>LB</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Ostrich</td>
+                <td>100</td>
+                <td>230</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>90</td>
+                <td>196</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Wild Turkey</td>
+                <td>13.5</td>
+                <td>30</td>
+                <td>Yes</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <footer style= "display: flex; justify-content: space-around;">        
+        <a href="../p4/index.html" style="font-size: 60px; text-decoration: none;">◀</a>
+        <a href="../index.html"  style="font-size: 60px; text-decoration: none;">⌂</a>
+        <a href="../p6/index.html"  style="font-size: 60px; text-decoration: none;">▶</a>  
+    </footer>     
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> 3 + 4 + 7 + 9 is <%= 3+4+7+9 %> <%= 'wow that is awesome'.toUpperCase() %> </p>
+    <p>Your random number is <%= numRand %> </p>
+    <br>
+
+    <% if(numRand % 2 === 0) {%>
+        <h3>Number is even</h3>
+    <% } else { %>
+        <h3>Number is odd</h3>
+    <% } %>
+
+    <br>
+    <h3>That number is : <%= numRand%2===0? 'EVEN' : 'ODD' %> </h3>
+    
+<!-- dsa -->
+</body>
+</html>
