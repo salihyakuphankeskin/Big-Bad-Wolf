@@ -36,13 +36,23 @@
 ->  $nor    =   logiacal operator nor
 ->  $not    =   logiacal operator not
 
-->  
-->  
-->  
-->  
-->  
-->  
-->  
+->  Movie.find().then(data=>console.log(data))
+        find() finds array as promises so we take data with .then() then return data from it
+->  Movie.updateOne({title: 'Amedus'},{year:1984}).then(res=>console.log(res))
+        updateOne() update items current element
+        {title: 'Amedus'},{year:1984} : take "title: 'Amedus'" item and change "year: 1984"
+->  Movie.updateMany({title: {$in: ['Amadeus', 'Stand by Me']}},{score: 9.4}).then(re=>console.log(res))
+        updateMany() update items current elements
+->  Movie.findOneAndUpdate({title: 'Amedus'},{year:1984},{new: true}).then(re=>console.log(res))
+        updateOne() update items current element findOneAndUpdate returns a document 
+        whereas updateOne does not (it just returns the _id if it has created a new document).
+        new: true is option for taking new document
+->  Movie.remove({title:'Amelie'}).then(msg=>console.log(msg))
+        remove() removes item from databank
+->  Movie.deleteMany({year: {$gte: 2000}}).then(msg=>console.log(msg))
+        deleteMany() delete items from databank
+->  Movie.findOneAndDelete({title: Alien}).then(m=>console.log(m))
+        delete() delete item from databank and shows deleted item
 ->  
 ->  
 ->  

@@ -16,6 +16,8 @@ const movieSchema = new mongoose.Schema({
 
 const Movie = mongoose.model('Movie', movieSchema);
 const amadeus = new Movie({title:'Amadeus', year: 1986, score:9.2, rating:'R'})
+
+
 /*
 .load index.js  ->  Loads index.js to database
 amadeus.save()  -> save amadeus file to data base
@@ -38,8 +40,7 @@ amadeus.save()  -> save amadeus file to data base
     node
     .load index.js
 
-    for loading data to databank
+    for loading data to databank   
 
-    Movie.find().then(data=>console.log(data))
-    show as array
+    Mo
 */
